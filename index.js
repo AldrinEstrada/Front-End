@@ -157,6 +157,20 @@ function finishQuiz() {
     
 }
 
+
+
+document.getElementById('retry-button').addEventListener('click', function() {                  //Retry button
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('results').textContent = '';
+    userAnswers = [];
+    document.getElementById('end-section').style.display = 'none';
+    document.getElementById('quiz-section').style.display = 'block';
+    document.getElementById('timer').style.display = 'block';
+    startQuiz();
+});
+
+
 document.getElementById('play-again-button').addEventListener('click', function() {
     document.getElementById('start-section').style.display = 'block';
     document.getElementById('end-section').style.display = 'none';

@@ -162,7 +162,7 @@
 
 button.selected {
   color: rgb(5 1 24);
-  background-color: #94e4e1;
+  background-color: #48ccd1;
   /* box-shadow: rgb(0, 255, 251) 0px 0px 0px 2px,  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -70px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
   scale: 101%;
 }
@@ -459,6 +459,25 @@ button.selected {
   #play-again-button:hover {
     scale: 101%;
   }
+
+
+
+  #retry-button {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 13pt;
+    padding: 0.6rem 1.3rem 0.6rem 1.3rem;
+    font-weight: 600;
+    background-color: #190F44;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+  }
+
+  #retry-button:hover {
+    scale: 101%;
+  }
+
 
 
 
